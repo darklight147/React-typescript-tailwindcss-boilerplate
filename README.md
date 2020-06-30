@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> react, typescript and tailwindcss startpack and boilerplate with Dockerfile ready to build
+> React, typescript and tailwindcss startpack and boilerplate with Dockerfile ready to build
 
 ## Install
 
