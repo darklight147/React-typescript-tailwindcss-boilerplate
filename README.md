@@ -21,11 +21,6 @@ yarn install --frozen-lockfile
 yarn start
 ```
 
-## Run tests
-
-```sh
-yarn run test
-```
 
 ## Author
 
