@@ -12,6 +12,7 @@
 
 ```sh
 npm install -g yarn
+yarn add tailwindcss postcss-cli autoprefixer -D
 yarn install --frozen-lockfile
 ```
 
