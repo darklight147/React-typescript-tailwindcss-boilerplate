@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="">
+			<header className="flex justify-center py-20">
+				<div className="max-w-md rounded overflow-hidden shadow-lg">
+					<div className="px-6 py-4">
+						<div className="font-bold text-xl mb-2">Mohamed Belkamel</div>
+						<p className="text-gray-700 text-base">
+                you're ready to build your react-typescript-tailwind
+						</p>
+					</div>
+					<div className="px-6 py-4">
+						<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+							#react
+						</span>
+						<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+							#typescript
+						</span>
+						<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+							#tailwind
+						</span>
+					</div>
+				</div>
+			</header>
+		</div>
+	);
 }
 
 export default App;
