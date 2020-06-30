@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to react-typescript-tailwindcss starter boilerplate 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
+  <a href="https://github.com/darklight147/React-typescript-tailwindcss-boilerplate/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
@@ -11,6 +11,8 @@
 ## Install
 
 ```sh
+npm install -g yarn
+yarn add tailwindcss postcss-cli autoprefixer -D
 yarn install --frozen-lockfile
 ```
 
@@ -20,11 +22,6 @@ yarn install --frozen-lockfile
 yarn start
 ```
 
-## Run tests
-
-```sh
-yarn run test
-```
 
 ## Author
 
