@@ -1,12 +1,16 @@
 import React from 'react';
 
-function App() {
+interface Props {
+	name: string;
+}
+
+const App: React.FC <Props>= ({name}) => {
 	return (
 		<div className="">
 			<header className="flex justify-center py-20">
 				<div className="max-w-md rounded overflow-hidden shadow-lg">
 					<div className="px-6 py-4">
-						<div className="font-bold text-xl mb-2">Mohamed Belkamel</div>
+						<div className="font-bold text-xl mb-2">{name}</div>
 						<p className="text-gray-700 text-base">
                 you're ready to build your react-typescript-tailwind
 						</p>
