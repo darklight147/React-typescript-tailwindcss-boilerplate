@@ -37,4 +37,4 @@ yarn run test
 Give a ⭐️ if this project helped you!
 
 ***
-_This README was generated with ❤️ by Mohamed Belkamel
+This README was made with ❤️ by Mohamed Belkamel
