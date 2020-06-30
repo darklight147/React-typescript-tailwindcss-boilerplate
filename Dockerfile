@@ -5,7 +5,7 @@ FROM node:12-alpine
 # apk add --no-cache libc6-compat
 
 ENV PORT 3000
-EXPOSE 3000 # replace this with your application's default port, if necessary
+EXPOSE 3000
 
 ARG NODE_ENV=production
 ENV NODE_ENV $NODE_ENV
