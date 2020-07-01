@@ -4,7 +4,7 @@ interface Props {
 	name: string;
 }
 
-const App: React.FC <Props>= ({name}) => {
+const App: React.FC<Props> = ({ name }) => {
 	return (
 		<div className="">
 			<header className="flex justify-center py-20">
@@ -12,7 +12,7 @@ const App: React.FC <Props>= ({name}) => {
 					<div className="px-6 py-4">
 						<div className="font-bold text-xl mb-2">{name}</div>
 						<p className="text-gray-700 text-base">
-                you're ready to build your react-typescript-tailwind
+							you're ready to build your react-typescript-tailwind
 						</p>
 					</div>
 					<div className="px-6 py-4">
@@ -30,6 +30,6 @@ const App: React.FC <Props>= ({name}) => {
 			</header>
 		</div>
 	);
-}
+};
 
 export default App;
