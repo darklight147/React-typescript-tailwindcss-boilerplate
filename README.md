@@ -25,7 +25,7 @@ yarn start
 ## Dockerizing
 
 ```sh
-sudo docker run -p 3000:3000 -d --name demo
+sudo docker run -p 3000:3000 -d --name demo .
 ```
 
 ## Author
