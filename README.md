@@ -4,6 +4,7 @@
   <a href="https://github.com/darklight147/React-typescript-tailwindcss-boilerplate/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
+  <img alt="BUILD" src="https://travis-ci.org/darklight147/React-typescript-tailwindcss-boilerplate.svg?branch=master" />
 </p>
 
 > React, typescript and tailwindcss startpack and boilerplate with Dockerfile ready to build
